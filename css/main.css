@@ -22,7 +22,8 @@
     line-height: 1.6;
   }
  img{
-     width: 100%;
+     max-width: 100%;
+     display: block;
  }
  .grid{
     display: grid;
@@ -222,7 +223,7 @@ nav:hover ul{
 
 /* Start Services */
 .services{
-    padding:0 50px;
+    padding:0 70px;
 }
 .center-flex{
     display: flex;
@@ -267,7 +268,7 @@ nav:hover ul{
      grid-gap: 30px 60px;
 } 
 .container-serv div{
-    padding: 10px;
+    padding: 10px 30px;
     position: relative; 
     margin: 0 auto;
   
@@ -282,7 +283,7 @@ nav:hover ul{
 .container-serv div i {
     position: absolute;
     top: 15px;
-    left: -35px;
+    left: -15px;
 }
 .container-serv div span {
     display: inline-block;
@@ -291,7 +292,7 @@ nav:hover ul{
     font-weight: 800;
 
 }
-.container-serv div p{
+.grid div p{
     color: #444;
     font-size: 16px;
     line-height: 1.8;
@@ -306,5 +307,42 @@ nav:hover ul{
 /* End Services */
 
 /* Start  Portfolio  */
+.portfolio {
+    background-color: var(--section-background);
+}
+.container-por{
+    grid-gap: 30px;
+    padding: 20px 70px;
+    justify-content: center;
+    max-width: 1200px ;
+    margin: 0 auto;
+
+}
+.container-por > div {
+    padding: 20px 0
+    
+}
+
+
+.container-por  div .wraper{
+    padding:20px   ;
+    background-color: white;
+
+}
+.container-por  div h3{
+    margin: 0 0 20px 5px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
 
 /* End  Portfolio  */
+
+
+/* Start About */
+
+
+/* End About */
+
+
+
