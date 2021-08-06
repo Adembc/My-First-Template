@@ -448,7 +448,7 @@ nav:hover ul{
 }
 .container-contact .social a {
     display: inline-block;
-    transition: transform 0.3s;
+    transition: transform 0.3s 0.1s;
 }
 .container-contact .social i {
     color: var(--secondary-color);
@@ -478,5 +478,24 @@ nav:hover ul{
 
 /* End Contact  */
 
-
+/* Start Footer  */
+footer{
+    background-color: var(--secondary-color);
+    height: 80px;
+}
+footer div{
+    color: white;
+    font-size: 20px;
+    
+}
+footer div span{
+   font-weight: bold;
+   color: var(--main-color);
+}
+@media(max-width: 376px){
+    footer div{
+        font-size: 16px;
+    } 
+}
+/* End Footer  */
 
