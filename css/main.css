@@ -153,7 +153,6 @@ nav:hover ul{
   align-items: center;
 }
 .landing h1{
-    margin-top: -10px;
     text-align: center;
     font-size: 50px;
     font-weight: 800;
@@ -234,8 +233,7 @@ nav:hover ul{
     align-items: center;
 }
 .special{
-    margin: 35px 0 ;
-    
+    margin: 35px 0 ;   
 }
 .special .wraper{
     padding: 20px;
@@ -269,6 +267,8 @@ nav:hover ul{
      max-width: 1200px;
      padding: 30px;
      grid-gap: 30px 60px;
+     justify-content: center;
+     align-items: center;
 } 
 .container-serv div{
     padding: 10px 30px;
@@ -308,6 +308,7 @@ nav:hover ul{
     }  
 }
 /* End Services */
+
 
 /* Start  Portfolio  */
 .portfolio {
@@ -352,7 +353,7 @@ nav:hover ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
-    padding: 50px 0 100px;
+    padding: 0px 0 60px;
     
 }
 .container-about image{
@@ -403,9 +404,12 @@ nav:hover ul{
         padding: 0 5px;
     }
     .container-about .text{
-        flex-basis:calc(100% - 200px); 
-        padding: 0 5px;
+        padding: 0 10px;
+
     } 
+    .container-about .text hr {
+        margin: 30px 5px 10px; 
+} 
 }
 
 /* End About */
