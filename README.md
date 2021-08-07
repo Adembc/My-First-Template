@@ -1,4 +1,4 @@
-# Frontend Mentor - 3-column preview card component solution
+
 
 This is my first webiste I've created using only HTML & CSS in order to transform the theoretical knowledge into real project
 ## Table of contents
